@@ -1,0 +1,15 @@
+$width:1200px;
+$alto: 600px;
+$color1: #aa478b;
+$color2: #1c1c9c;
+
+.contenedor {
+    width: $width;
+    background-color: $color1;
+}
+
+.contenedor_con_altura {
+    @extend .contenedor;
+    height: $alto;
+    background-color: $color2;
+}

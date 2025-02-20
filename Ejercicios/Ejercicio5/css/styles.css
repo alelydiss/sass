@@ -1,0 +1,19 @@
+header h1 {
+  color: #aa478b;
+}
+
+main h2 {
+  color: #1c1c9c;
+}
+
+footer h4 {
+  color: #c47711;
+}
+footer a {
+  color: #1c9c1c;
+}
+footer a:hover {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

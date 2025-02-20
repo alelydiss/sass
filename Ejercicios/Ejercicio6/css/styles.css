@@ -1,0 +1,11 @@
+.contenedor, .contenedor_con_altura {
+  width: 1200px;
+  background-color: #aa478b;
+}
+
+.contenedor_con_altura {
+  height: 600px;
+  background-color: #1c1c9c;
+}
+
+/*# sourceMappingURL=styles.css.map */

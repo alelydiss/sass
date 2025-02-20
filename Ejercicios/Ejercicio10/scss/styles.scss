@@ -1,0 +1,13 @@
+@use 'sass:math';
+@use 'sass:string';
+
+$i: 2;
+@while $i <= 6 {
+  .ancho-col-#{$i} {
+    width: (calc(100 / ($i/2))) + string.unquote("%");
+    background-color: lightgray;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  $i: $i + 1;
+}

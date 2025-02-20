@@ -1,0 +1,18 @@
+@use 'sass:map';
+@use 'sass:list';
+
+$colors:(red,green,blue);
+$tamaños:("pequeño":10px,"mediano":20px,"grande":30px);
+
+ul {
+    color:list.nth($colors, 1);
+    font-size:map.get($tamaños, "grande");
+    ul {
+        color:list.nth($colors, 2);
+        font-size:map.get($tamaños, "mediano");
+        ul {
+            color:list.nth($colors, 3);
+            font-size:map.get($tamaños, "pequeño");
+        }
+    }
+}

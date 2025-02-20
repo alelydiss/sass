@@ -1,0 +1,11 @@
+@use 'sass:math';
+
+@function partir($tamanio, $partes) {
+    $anchura: math.div($tamanio, $partes);
+    @return $anchura;
+}
+
+.decimo {
+    width: partir(1200px, 10);
+    background-color: #aa478b;
+}

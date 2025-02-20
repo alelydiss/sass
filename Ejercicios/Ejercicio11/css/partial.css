@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #7e2424;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #6d5656;
+  clear: both;
+}
+
+/*# sourceMappingURL=partial.css.map */

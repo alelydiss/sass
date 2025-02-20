@@ -1,0 +1,17 @@
+// 1) @use 'styles-vars';
+// 2) Con alias
+// @use 'styles-vars' as v;
+// 3) Con valores por defecto
+@use 'styles-vars' as v with (
+  $body-color: #d49c32
+);
+
+body {
+  background-color: v.$body-color;
+  font-size: v.$body-font-size;
+}
+
+h1 {
+  color: v.$h1-color;
+  font-size: v.$h1-size;
+}

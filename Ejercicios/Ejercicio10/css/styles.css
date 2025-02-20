@@ -1,0 +1,36 @@
+.ancho-col-2 {
+  width: 100%;
+  background-color: lightgray;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.ancho-col-3 {
+  width: 66.6666666667%;
+  background-color: lightgray;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.ancho-col-4 {
+  width: 50%;
+  background-color: lightgray;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.ancho-col-5 {
+  width: 40%;
+  background-color: lightgray;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.ancho-col-6 {
+  width: 33.3333333333%;
+  background-color: lightgray;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

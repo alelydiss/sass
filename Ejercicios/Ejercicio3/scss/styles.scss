@@ -1,0 +1,23 @@
+@use 'sass:math';
+
+$width: 1200px;
+$color1: #aa478b;
+$color2: #1c1c9c;
+$color3: #d49c32;
+
+//Tres opciones
+.mitad {
+    //width: calc$width / 2;  no se debe usar
+    width: calc($width / 2);
+    background-color: $color1;
+}
+
+.cuarto {
+    width: calc($width / 4 );
+    background-color: $color2;
+}
+
+.octavo {
+    width: math.div($width, 8); //recomenble usar
+    background-color: $color3;
+}

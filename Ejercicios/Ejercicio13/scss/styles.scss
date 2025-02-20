@@ -1,0 +1,35 @@
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 200px;
+
+  &--grid {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &__button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+
+    &--tomato {
+      background-color: tomato;
+      color: white;
+    }
+    
+  }
+}
+
+
+
+
+
+
+

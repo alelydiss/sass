@@ -1,0 +1,14 @@
+@use 'general' as g;
+@use 'colores' as c;
+@use 'reset';
+
+body {
+	font-family: g.$bodyfont;
+	background-color: c.$bodycolor;
+ 	font-size: g.$bodysize;
+}
+ 
+footer {
+	background-color: c.$footercolor;
+ 	clear: both;
+ }

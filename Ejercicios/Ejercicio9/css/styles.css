@@ -1,0 +1,16 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.grid-container div {
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=styles.css.map */
