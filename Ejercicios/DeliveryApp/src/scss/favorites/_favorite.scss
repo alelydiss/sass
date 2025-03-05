@@ -1,0 +1,60 @@
+@use '../base/vars' as v;
+@use '../base/mixins' as m;
+
+.favorite {
+    background-color: v.$white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+
+    &__grid {
+        @include m.tablet{
+            @include m.do-grid(3);
+            .favorite__image {
+                grid-column: 1 / 2;
+                width: 15rem;
+                margin-top: 30%;
+                margin-left: 5%;
+            }
+
+            .favorite__content {
+                grid-column: 2 / 4;
+                img {
+                    margin: 0;
+                }
+            }
+
+            .favorite__name {
+                margin-top: 2rem;
+                color: v.$main-color;
+                text-align: left;
+            }
+
+            .favorite__description {
+                margin-top: 1rem;
+                text-align: left;
+            }
+        }
+    }
+
+    &__image {
+        width: 25rem;
+        margin: 0 auto;
+    }
+
+    &__content {
+        text-align: center;
+        img {
+            margin: 0 auto;
+        }
+    }
+
+    &__name {
+        margin-top: 2rem;
+        color: v.$main-color;
+        text-align: center;
+    }
+    
+}

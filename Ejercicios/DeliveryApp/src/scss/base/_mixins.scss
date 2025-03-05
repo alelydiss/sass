@@ -14,6 +14,12 @@
     gap: $gap;
 }
 
+@mixin do-grid-row($num-row, $gap: 10px) {
+    display: grid;
+    grid-template-row: repeat($num-row, 1fr);
+    gap: $gap;
+}
+
 //boton
 @mixin btn ($bg-color, $fgcolor) {
     background-color: $bg-color;

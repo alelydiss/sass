@@ -1,0 +1,44 @@
+@use '../base/vars' as v;
+@use '../base/mixins' as m;
+
+.apps {
+    background-color: v.$grey;
+
+    &__grid {
+        @include m.do-grid-row(2);
+        .app-stores {
+            grid-row: 1/2;
+        }
+
+        @include m.tablet {
+            @include m.do-grid(2, 20px);
+            .app-stores {
+                grid-column: 2/3;
+                grid-row: 1/2;
+            }
+        }
+    }
+
+    .apps__image {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .app-stores {
+        text-align: center;
+        align-items: center;
+        margin-top: 2rem;
+
+        @include m.tablet {
+            margin-top: 50%;
+        }
+
+        &__grid {
+            @include m.do-grid(2);
+        }
+    }
+}
